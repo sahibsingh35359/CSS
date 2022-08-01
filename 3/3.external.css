@@ -1,0 +1,45 @@
+.p1{
+    color: blue;
+    background-color: grey;
+    font-size: 24px;
+
+     
+ }
+ .p2{
+     color:green;
+     background-color: grey;
+    font-size: 24px;
+ }
+ .p3{
+     color: rgb(175, 26, 101);
+    
+     background-color: grey;
+    font-size: 24px;
+ }
+
+ .p4{
+     color: rgb(42, 51, 32);
+     
+     background-color: grey;
+    font-size: 24px;
+    
+ }
+
+ h1{
+     text-align: center;
+     color: rgb(53, 36, 66);
+     font-size: 40px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ h2{
+     color: rgb(49, 22, 22);
+     
+ }
+ .container{
+    background-color: lightgrey;
+    border: 6px solid black;
+    border-radius: 34px;
+
+
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Lists Property in Css</title>
+    <style>
+        p {
+            background-color:blue;
+            color: wheat;
+            padding: 7px 20px;
+            margin: 12px 0px;
+        }
+
+        p.england
+        {
+            background-color: red;
+        }
+
+        ul {
+            list-style-type: square;
+            list-style-position: outside;
+        }
+
+        ol {
+            list-style-type: decimal;
+            list-style-position: outside;
+
+        }
+        
+        ol.abn {
+           /* list-style-type: decimal;
+            list-style-position: outside;
+            list-style-image: url(cricket.jpg.png);*/
+            list-style: decimal outside url(cricket.jpg.png);
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2>INDIAN CRICKET TEAM </h2>
+
+    
+    <p>PLAYING 11</p>
+    <ol>
+        <li>Rohit Sharma</li>
+        <li>Shikar Dhawan</li>
+        <li>Virat Kohli</li>
+        <li>KL Rahul</li>
+        <li>S Yadav</li>
+        <li> H Pandya</li>
+        <li> K Pandya</li>
+        <li> S Thakur</li>
+        <li> Bhuvneshwar Kumar</li>
+        <li> Prasidh Krishna</li>
+        <li> T Natarajan</li>
+    </ol>
+
+
+    <p>EXTRAS</p>
+    <ul>
+        <li>Rishabh Pant</li>
+        <li>Washington Sundar</li>
+        <li>Y Chahal</li>
+        <li>Shubman Gill</li>
+       </ul>
+    
+    <h2>ENGLAND CRICKET TEAM</h2>
+
+    <p class="england">PLAYING 11</p>
+    <ol class="abn">
+       <li>1.Jason Roy</li>
+       <li>2.J Bairstow</li>
+       <li>3.Ben Stokes</li>
+       <li>4.Jos Buttler  </li>
+       <li>5.Moeen Ali</li>
+       <li>6.Sam Curran</li>
+       <li>7.Tom Curran</li>
+       <li>8.Adil Rashid</li>
+       <li>9.Mark Wood</li>
+       <li>10.Dawid Malan</li>
+       <li>11.Liam Livingstone</li>
+    </ol>
+
+
+    <p class="england">EXTRAS</p>
+    <ul>
+       <li>Reece Topley</li>
+       <li>Jake Call</li>
+       <li>Chris Jordon</li>
+       <li>Sam Billings</li>
+       </ul>
+
+
+</body>
+
+</html>
